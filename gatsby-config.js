@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Adi No Cap - an Engineer's Blog`,
+    title: `Adi No Cap - an Oliner's Blog`,
     author: `Aditya Ramachandran`,
     description: `A personal blog about engineering, software development, and being a student at the Olin College of Engineering.`,
     siteUrl: `https://adinocap.netlify.com/`,
