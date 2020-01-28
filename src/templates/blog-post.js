@@ -6,6 +6,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import Button from "../components/button"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -62,6 +63,9 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        <Link to="/blog/">
+          <Button marginTop="35px">Back to Blog :)</Button>
+        </Link>
       </Layout>
     )
   }

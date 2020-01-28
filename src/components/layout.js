@@ -71,7 +71,7 @@ class Layout extends React.Component {
           <span role="img" aria-label="wave emoji">
             ❤️
           </span>
-          {" "}by Adi!
+          {" "}by Adi. Contact me <a href="mailto:lego.r.ramachandran@gmail.com?subject=ContactAdi">here</a>!
         </Footer>
       </Wrapper>
     )
