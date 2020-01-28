@@ -1,6 +1,7 @@
 ---
 title: My First Semester At Olin 
 date: "2020-01-27T22:12:03.284Z"
+description: Welcome to my first blog of the twenties – and my first blog post ever. Here, you'll learn a little about one student's perspective on the Olin College of Engineering, about some neat little first-year projects, and more! 
 ---
 
 Welcome to my first blog of the twenties – and my first blog post ever.
