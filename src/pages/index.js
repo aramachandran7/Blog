@@ -13,20 +13,21 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          keywords={[`blog`, `Adi Ramachandran`, `Aditya Ramachandran`, `engineering`]}
         />
         <img style={{ margin: 0 }} src="./profile.jpg" alt='profile' />
 
-        <h1>
+        <h2>
           Hi!{" "}
           <span role="img" aria-label="wave emoji">
             👋
           </span>
-        </h1>
+        </h2>
         <p>My name's Adi Ramachandran and I'm a student at <b>Olin</b>!</p>
-        <p>
-          Check out my blog <Link to='/blog/'> here</Link>!
-        </p>
+
+        <Link to="/blog/">
+          <Button marginTop="35px" marginBottom="35px" >Check out my blog here! :)</Button>
+        </Link>
         <p>
           The Olin College of Engineering is a crazy neat undergraduate, engineering school located just outside of Boston, MA!
           Our curriculum is based entirely on project-based learning - we don't have tests.
@@ -38,7 +39,7 @@ class IndexPage extends React.Component {
           </span>
         </p>
         <p>
-          Scroll down to check out some of my highlighted projects!
+          Scroll down to check out some of my <b>highlighted projects</b>!
         </p>
         <hr />
         <br />

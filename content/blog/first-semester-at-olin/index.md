@@ -4,31 +4,16 @@ date: "2020-01-27T22:12:03.284Z"
 description: Welcome to my first blog of the twenties – and my first blog post ever. Here, you'll learn a little about one student's perspective on the Olin College of Engineering, about some neat little first-year projects, and more! 
 ---
 
-Welcome to my first blog of the twenties – and my first blog post ever.
+Welcome to my first blog of the twenties – and my first blog post ever. Thanks for checking this out! 
 
-Thanks for checking this out! Here's a quick table of contents:
+#### **(If you're here for the projects, please scroll to the Projects Section at the bottom of the page. 🙃 )**
 
-**(If you're here for the projects, skip to the Projects Section.)**
-
-## Table of Contents
-
-[A semester by the Numbers](#a-semester-by-the-numbers)
-
-[Some Olin Background](#some-olin-background)
-
-[My Time Here](#my-time-here)
-
-[My Projects!](#a-couple-of-my-projects)
-
-[Wrapping Up](#third-example)
-
+#### 
 A super quick note before we start. In general, these blogs are an informal place for me to share my findings and express my opinions as a young engineering student who still doesn’t really have an idea about what he wants to do.
 
 We’re gonna kick this off by talking about my first semester at the Olin College of Engineering. **Let’s start with some numbers, and then I’ll do some explaining.**
 
-## A semester by the Numbers
-
-- **My first semester by the numbers –**
+## A semester by the numbers
 
 - **0 Tests**
 
@@ -60,17 +45,15 @@ We’re gonna kick this off by talking about my first semester at the Olin Colle
 
 - **1 New amazing group of friends!**
 
-## Some Olin Background
+## Some Olin background
 
 Olin is by far one of the most unique, progressive engineering schools on the planet. I highly recommend you check out the website to learn more, but in summary...
 
-We’re located just outside of Boston, Mass if you ever want to give us a visit.
-
-Olin College is a pretty highly ranked engineering school with only undergraduates, a total student body of 400, and an entirely project based learning curriculum – we don’t have tests.
+We’re located just outside of Boston, Mass if you ever want to give us a visit. Olin College is a pretty highly ranked engineering school with only undergraduates, a total student body of 400, and an entirely project based learning curriculum – we don’t have tests.
 
 No tests. No finals. No midterms. Ever.
 
-Just a f\*ckton of group projects.
+Just a boatload of group projects.
 
 On a side note I think I forgot what multiple choice _feels like._
 
@@ -83,7 +66,7 @@ Even today, the college still functions somewhat like a startup, where students 
 
 We have a partnership with 2 other close-by universities – Babson College and Wellesley University – where we can enroll in business/entrepreneurship or liberal arts courses (respectively) and join clubs.
 
-The school chooses to give first year students in their first semester a generally easier time, to smooth the transition between high school and college. We all take the same courses regardless of our intended concentration, and these courses are honestly pretty damn easy.
+The school chooses to give first-year students in their first semester a generally easier time, to smooth the transition between high school and college. We all take the same courses regardless of our intended concentration, and these courses are honestly pretty damn easy.
 
 They aren’t nearly as theory heavy as the first-year courses will be at other engineering schools, and their workload is tiny compared to courses we’ll take later on at Olin – which gives students a lot of free time (in theory) to try out new clubs, opportunities, etc.
 
@@ -99,7 +82,7 @@ Olin is an incredibly socially welcoming community, with a surprisingly welcomin
 
 Students have no problems sending out emails on blast to the entire student body, to announce unofficial events, parties, and or workshops they think will be useful.
 
-The college culture itself is really f\*cking weird but also really f\*cking cool. I’ll give you just one quirky example of our culture.
+The college culture itself is really, really weird but also really, really cool. I’ll give you just one quirky example of our culture.
 
 On ‘California Day’, the youngest Californian at Olin, (who ended up being my roommate), leads the entire student body to run laps around the O (the center of campus) in only swimwear.
 
@@ -119,9 +102,27 @@ But I guess that’s what my next 4 years are precisely for.
 
 ## A couple of my projects
 
+### Catalyst 'Edual' Project
+
+My project partner, Eamon Ito-Fisher, and I spent a lot of time last semester and most of winter break building and deploying an education software project. At some point I’ll get around to writing an entirely separate blog post on this one too, as of all the projects listed here, this is IMO the most interesting, and also the only one still in progress. We pursued this project outside of class time as an 'extracurricular' entrepreneurial experiment. 
+
+In short, we built a game-based teaching tool for professors, comparable to MIT's Scratch! We ported over a 1980’s coding game, Corewars, to a modern tech stack with a re-imagined UI. Our objective was to provide students with a collaborative logic game that increases their confidence in creative problem solving and collaborative algorithmic thinking.
+
+We completed our MVP (Check out what we built [here](https://corewarstechalpha.herokuapp.com/)!), and actually had the amazing opportunity to deploy with [first-year CS students](https://amfoss.in/) at Amrita University in Kollam, India! It was a ton of fun, and by far one of my coolest projects yet.
+![Edual Alpha Project Image](./COREWARS.PNG)  
+
+We have plans to continue in a different direction, (subject to pivots): we’re thinking about developing software to enable ‘Olin-style’ project-based learning in other university lecture halls across the country. We’ll keep you updated!
+
+Eamon and I are Catalyst Fellows – we’ve received seed funding and mentoring from Catalyst, Olin’s entrepreneurship club, to continue development on our project(s). We also just sent a proposal in to the First Act Fund, a funding source to help ‘young people with technical backgrounds to pursue impactful and innovative ideas’.
+
+Again, check out the ‘first stage’ of our project [here](https://corewarstechalpha.herokuapp.com/)!
+
+You can read more about [Olin's Catalyst](http://www.olin.edu/academic-life/student-affairs-resources/student-life/clubs/catalyst/) and the [First Act Fund](https://www.firstactfund.com/) at these links.
+
+
 ### Modsim Project 1
 
-Olin’s Modeling and Simulation teaches the basics of modeling, system abstraction, and coding with Python 3. The course itself features 3 major projects, each dedicated to modeling a certain type of real-world system.
+Olin’s Modeling and Simulation course teaches the basics of modeling, system abstraction, and coding with Python 3. The course itself features 3 major projects, each dedicated to modeling a certain type of real-world system.
 
 Project 1 – abstract system modeling (i.e. transportation systems)
 
@@ -129,10 +130,10 @@ Project 2 – modeling thermal systems (i.e. ocean warming)
 
 Project 3 – modeling physical systems (i.e. projectile motion)
 
-Our Modsim Project 1, where I worked with Xander Hughes, was by far my favorite - using Python and about 30 gigs of Citibike date we built a statistical model of the NYC CitiBike bikeshare system.
+Here I'll be discussing our Modsim Project 1, which was by far my favorite of the 3 projects. Working with Xander Hughes, using Python and about 30 gigs of Citibike data, we built a statistical model of the NYC CitiBike bikeshare system to predict bikeshare usage in NYC, model daily commuter flow, and mpa out pain points in the system.
 ![Modsim Project](./modsim.PNG)  
 
-We based all of the values in our system off of probabilities and insights gathered from real CitiBike data, and nearly every parameter of the system was considered as a distribution around the real average, instead of a constant value, to match variance in the real world.
+We based all of the values in our system off of probabilities and insights gathered from real CitiBike data, and nearly every parameter of the system (like bike travel speed, arrival time for bikeshare users, etc.) was considered as a distribution around the real average, instead of a constant value, to match variance in the real world.
 
 We wrote all our visualization functions and the entire model class framework to enable systematic, scalable, and customizable simulations.
 
@@ -140,9 +141,9 @@ Check out the project on [GitHub](https://github.com/aramachandran7/BikeshareMod
 
 ### ISIM Final
 
-Introduction to sensors, instrumentation, and measurement, the intro electrical engineering course at Olin. By far the most theory heavy / challenging first semester first year course for Oliners – but also a ton of fun.
+Introduction to sensors, instrumentation, and measurement - ISIM -  was the introductory electronics course for Olin first-years. It's by far the most theory heavy and challenging first semester first-year course – but it's also a ton of fun. There were weekly labs and problem sets where professors loved watching us struggle through challenging electronics concepts, but also loved helping us out when we needed it the most.  
 
-For our final ISIM project Rohil Agarwal and I devised a simple thermocouple circuit, capable of reading temperature with high precision and low lag, using some custom filtering and amplification. The circuit was used with an Analog Discovery oscilloscope and Waveforms software to read and log the data in real time.
+For our final ISIM project, Rohil Agarwal and I devised a simple thermocouple circuit, capable of reading temperature with high precision and low lag, using some custom filtering and amplification. The circuit was used with an Analog Discovery oscilloscope and Waveforms software to read and log the data in real time.
 
 Subsequently, we used the above circuit as a measurement tool to fact-check the temperature accuracy of 3D printer print beds …
 ![Isim workspace image](./isim2.PNG)  
@@ -165,23 +166,6 @@ The Desnat Play Experience project required teams of 5 students to collaborate a
 I will note that 4th graders are incredible critics. This project is best explained [visually - check out this drive folder](https://drive.google.com/open?id=1U6TKJgSbrzZ-HdJAjwoHlbLDy0PzqYYH). :)
 
 ![Desnat pic 4](./giraffe3.JPG)  
-
-### Catalyst 'Edual' Project
-
-My project partner, Eamon Ito-Fisher, and I spent a lot of time last semester and over break building and deploying an education related entrepreneurial project. At some point I’ll get around to writing an entirely separate blog post on this one too, as of all the projects listed here, this is IMO the most interesting, and also the only one still in progress.
-
-We built a game-based teaching tool for professors, comparable to MIT's Scratch! We ported over a 1980’s coding game, Corewars, to a modern tech stack with a re-imagined UI. Our objective was to provide students with a collaborative logic game that increases their confidence in creative problem solving and collaborative algorithmic thinking.
-
-We completed our MVP (Check out what we built [here](https://corewarstechalpha.herokuapp.com/)!), and actually had the amazing opportunity to deploy with [first-year CS students](https://amfoss.in/) at Amrita University in Kollam, India! It was a ton of fun, and by far one of my coolest projects yet.
-![Edual Alpha Project Image](./COREWARS.PNG)  
-
-We have plans to continue in a different direction, (subject to pivots): we’re thinking about developing software to enable ‘Olin-style’ project-based learning in other university lecture halls across the country. We’ll keep you updated!
-
-Eamon and I are Catalyst Fellows – we’ve received seed funding and mentoring from Catalyst, Olin’s entrepreneurship club, to continue development on our project(s). We also just sent a proposal in to the First Act Fund, a funding source to help ‘young people with technical backgrounds to pursue impactful and innovative ideas’.
-
-Again, check out the ‘first stage’ of our project [here](https://corewarstechalpha.herokuapp.com/)!
-
-You can read more about [Olin's Catalyst](http://www.olin.edu/academic-life/student-affairs-resources/student-life/clubs/catalyst/) and the [First Act Fund](https://www.firstactfund.com/) at these links.
 
 ## Wrapping up
 
