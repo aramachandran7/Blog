@@ -4,7 +4,7 @@ module.exports = {
     title: `Adi No Cap - an Oliner's Blog`,
     author: `Adi Ramachandran`,
     description: `A personal blog about engineering, software development, and being a student at the Olin College of Engineering.`,
-    siteUrl: `https://adinocap.netlify.com/`,
+    siteUrl: `https://adinocap.com/`,
     social: {
       github: 'aramachandran7',
       twitter: 'aramachandran29',
@@ -19,6 +19,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-feed-mdx`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

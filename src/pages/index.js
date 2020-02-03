@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
+// import downloadFile from "../"
 
 class IndexPage extends React.Component {
   render() {
@@ -41,6 +42,9 @@ class IndexPage extends React.Component {
         <p>
           Scroll down to check out some of my <b>highlighted projects</b>!
         </p>
+        <a href={"./resume_updated_v2.pdf"} download>
+          <Button marginTop="35px" marginBottom="35px" >Download my resume here! :)</Button>
+        </a>
         <hr />
         <br />
         <img style={{ margin: 0 }} src="./hemingway2.jpg" alt='hemingway2' />
