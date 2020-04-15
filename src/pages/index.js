@@ -47,12 +47,27 @@ class IndexPage extends React.Component {
         </a>
         <hr />
         <br />
-        <img style={{ margin: 0 }} src="./hemingway2.jpg" alt='hemingway2' />
-        <h2>Hemingway</h2>
+        <img style={{ margin: 0 }} src="./hack.png" alt='hackathon image' />
+        <h2>MIT COVID-19 Hackathon Winners!</h2>
         <p>
-          Over this past summer, I co-founded a business venture in the college applications space, the Hemingway Summer Workshop. Through sixteen hours of instruction over the course of a month, my business partner Sarah Zhou and I were able to teach our students how to approach various types of college essays and how to create personalized roadmaps to break down the college application process. To set up the venture, we self-automated our email campaign, built a social media following, and composed a business strategy & pricing structure from the ground up. We’re looking forward to expanding next year!
+          On a whim, I decided to team up with an old high school friend and compete in MIT's COVID-19 virtual hackathon, from April 3rd-6th. With a little luck, a lot of mentor interviews, and some very last minute software development, the Hospital PPE Inventory Management software we built won us a prize in the hackathon's supply chain track!  
         </p>
-
+        <p>          
+          Keep a lookout for an upcoming post on this topic! 
+        </p>
+        <hr />
+        <br />
+        <img style={{ margin: 0 }} src="./OEM.jpg" alt='OEM image' />
+        <h2>Olin Electric Motorsports</h2>
+        <p>
+          During my first semester @ Olin College, I decided to join Olin Electric Motorsports (OEM), Olin's Formula SAE team that works to build an electric racecar every year. During my time on OEM, I've worked on designing and testing a more efficient low voltage battery back and battery management system PCB. 
+        </p>
+        <p>
+          Learn more about my work by checking out the {" "}
+            <a href={"./LVDocs.pdf"} download>
+              OEM documentation! 
+            </a>
+          </p>
         <hr />
         <br />
         <img style={{ margin: 0 }} src="./edual.jpg" alt='edual' />
@@ -62,6 +77,15 @@ class IndexPage extends React.Component {
         </p>
         <p>Read more about our work on Edual in the Projects Section of my latest blog post!</p>
 
+        <hr />
+        <br />
+        <img style={{ margin: 0 }} src="./hemingway2.jpg" alt='hemingway2' />
+        <h2>Hemingway</h2>
+        <p>
+          Over the summer of 2019, I co-founded a business venture in the college applications space, the Hemingway Summer Workshop. Through sixteen hours of instruction over the course of a month, my business partner Sarah Zhou and I were able to teach our students how to approach various types of college essays and how to create personalized roadmaps to break down the college application process. To set up the venture, we self-automated our email campaign, built a social media following, and composed a business strategy & pricing structure from the ground up. We’re looking forward to expanding next year!
+        </p>
+
+        <hr />
         <Link to="/blog/">
           <Button marginTop="35px">Head to my Blog :)</Button>
         </Link>
