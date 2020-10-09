@@ -46,7 +46,7 @@ class IndexPage extends React.Component {
           <Button marginTop="35px" marginBottom="35px" >Download my resume here! :)</Button>
         </a>
         <hr />
-        <br />
+        {/* <br />
         <img style={{ margin: 0 }} src="./hack.png" alt='hackathon image' />
         <h2>MIT COVID-19 Hackathon Winners!</h2>
         <p>
@@ -55,7 +55,7 @@ class IndexPage extends React.Component {
         <p>          
           Keep a lookout for an upcoming post on this topic! 
         </p>
-        <hr />
+        <hr /> */}
         <br />
         <img style={{ margin: 0 }} src="./OEM.jpg" alt='OEM image' />
         <h2>Olin Electric Motorsports</h2>
