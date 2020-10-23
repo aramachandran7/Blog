@@ -46,16 +46,12 @@ class IndexPage extends React.Component {
           <Button marginTop="35px" marginBottom="35px" >Download my resume here! :)</Button>
         </a>
         <hr />
-        {/* <br />
-        <img style={{ margin: 0 }} src="./hack.png" alt='hackathon image' />
-        <h2>MIT COVID-19 Hackathon Winners!</h2>
+        <br />
+        <img style={{ margin: 0 }} src="./pf_inaction.gif" alt='Particle filter in Action!' />
+        <h2>We built a particle filter!</h2>
         <p>
-          On a whim, I decided to team up with an old high school friend and compete in MIT's COVID-19 virtual hackathon, from April 3rd-6th. With a little luck, a lot of mentor interviews, and some very last minute software development, the Hospital PPE Inventory Management software we built won us a prize in the hackathon's supply chain track!  
-        </p>
-        <p>          
-          Keep a lookout for an upcoming post on this topic! 
-        </p>
-        <hr /> */}
+          We wrote some code to help our cleaning robot locate itself in a known physical map using the in built LIDAR sensor and some math. Check out <a href={"/blog/particle-filter"}>the blog post</a> to learn more!</p>
+        <hr />
         <br />
         <img style={{ margin: 0 }} src="./OEM.jpg" alt='OEM image' />
         <h2>Olin Electric Motorsports</h2>
