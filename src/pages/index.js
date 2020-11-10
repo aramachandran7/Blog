@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
             👋
           </span>
         </h2>
-        <p>My name's Adi Ramachandran and I'm a student at <b>Olin</b>!</p>
+        <p>My name's Adi Ramachandran and I'm an ECE student at <b>Olin</b>!</p>
 
         <Link to="/blog/">
           <Button marginTop="35px" marginBottom="35px" >Check out my blog here! :)</Button>
@@ -34,7 +34,7 @@ class IndexPage extends React.Component {
           Our curriculum is based entirely on interdisciplinary, collaborative project-based learning.
         </p>
         <p>
-          ~it's kinds dope {" "}
+          ~it's kinda dope {" "}
           <span role="img" aria-label="wave emoji">
             😃
           </span>
@@ -55,23 +55,26 @@ class IndexPage extends React.Component {
           We wrote some code to help our cleaning robot locate itself in a known physical map using the in built LIDAR sensor and some math. Check out <a href={"/blog/particle-filter"}>the blog post</a> to learn more!</p>
         <hr />
         <br />
-        {/* <img style={{ margin: 0 }} src="./OEM.jpg" alt='OEM image' /> */}
         <img style={{ margin: 0 }} src="./oem.png" alt='OEM image' />
+        <img style={{ margin: 0 }} src="./blk_diagram.png" alt='telemetry block diagram' />
         <h2>Olin Electric Motorsports</h2>
+        <p>OEM is our Olin's Formula SAE team that works to build an electric racecar every year! We work on some lit projects.</p>
+        <h4>Vehicle telemetry software!</h4>
         <p>
-          I also spend a lot of time on Olin Electric Motorsports (OEM), Olin's Formula SAE team that works to build an electric racecar every year. During my first year, I worked on designing and testing a more efficient low voltage battery back and associated battery management system PCB. 
+          During my second year on OEM, I've been working on writing the software and building the data pipeline behind our team's <b> new telemetry system,</b> to live-stream sensor data from the vehicle's CANbus for visualization, logging, and analysis on the sidelines. Check out the <a href={"https://docs.google.com/presentation/d/1UC-YDQk7SpxMN6GNWE3kg2BDyTvGPCxV-E1GIj7U7aE/edit#slide=id.ga6a6f370e1_0_12"} target="_blank">design review slides</a> for more info. 
         </p>
+        <h4>Designing a battery management system</h4>
         <p>
-          During my second year on OEM, I've been working on writing the software and building the data pipeline behind our team's <b> new telemetry system,</b> to live-stream sensor data from the vehicle's CANbus for visualization, logging, and analysis on the sidelines.  
-          Learn more about my work by checking out the {" "}
+          During my first year, I worked on designing and testing a more efficient low voltage battery back and associated battery management system PCB. Learn more about my work by checking out my project {" "}
             <a href={"./LVDocs.pdf"} download>
-              OEM documentation! 
+              documentation! 
             </a>
-          </p>
+        </p>
+
         <hr />
         <br />
         {/* <img style={{ margin: 0 }} src="./edual.jpg" alt='edual' /> */}
-        <img style={{ margin: 0 }} src="./test2.gif" alt='Particle filter in Action!' />
+        <img style={{ margin: 0 }} src="./test2.gif" alt='Our Corewars Implementation!' />
 
         <h2>Edual</h2>
         <p>
@@ -81,17 +84,24 @@ class IndexPage extends React.Component {
 
         </p>
         <p>We deployed our code to a university in India in January 2020, and you can see the final product above! Read more about our work on Edual <a href={"/blog/corewars-in-india"}>at our full blog post</a>!</p>
-        {/* <hr /> */}
-        {/* <br /> */}
+        <hr />
+        <br />
 
-        {/* <img style={{ margin: 0 }} src="./hemingway2.jpg" alt='hemingway2' /> */}
-        {/* <h2>Hemingway</h2> */}
-        {/* <p>
-          Over the summer of 2019, I co-founded a business venture in the college applications space, the Hemingway Summer Workshop. Through sixteen hours of instruction over the course of a month, my business partner Sarah Zhou and I were able to teach our students how to approach various types of college essays and how to create personalized roadmaps to break down the college application process. To set up the venture, we self-automated our email campaign, built a social media following, and composed a business strategy & pricing structure from the ground up. We’re looking forward to expanding next year!
-        </p> */}
+        <img style={{ margin: 0 }} src="./scheduler.PNG" alt='scheduler' />
+        <h2>Course Scheduler</h2>
+        <p>
+          With over 1000 lines of python, we wrote an Olin course scheduling assistant command line tool for our Software Design final project! Read more on our <a href={"https://teadetime.github.io/softdesFinal/"} target="_blank">dedicated project website</a>.   
+        </p>
         <hr />
         <p>
-          I've also worked on a bunch of other sick projects, including RC ornithopters, co-founding and running a successful <a href={"https://junipercollegeprep.com/"} target="_blank">college essay writing workshop</a>, and leading Assembly on my high school robotics <a href={"https://team3061.org/"} target="_blank">FRC team</a>! See my <a href={"https://github.com/aramachandran7/"} target="_blank">github</a> or read my blog for more, below.
+          <b>I've also worked on a bunch of other sick projects, including ... </b> 
+          <ul>
+            <li>3D Modeling, CFD simulating, constructing & testing a <a href={"https://photos.app.goo.gl/PoskhKKoH933hUgC7"} target="_blank">feather articulating RC ornithopter</a>!</li>  
+            <li>co-founding and running a successful <a href={"https://junipercollegeprep.com/"} target="_blank">college essay writing workshop</a></li>
+            <li>winning an MIT COVID-19 hackathon</li>
+            <li>Leading Assembly on my high school robotics <a href={"https://team3061.org/"} target="_blank">FRC team</a>!</li>
+          </ul>
+          See my <a href={"https://github.com/aramachandran7/"} target="_blank">github</a> or read my blog for more, below.
         </p>
         <hr />
         <Link to="/blog/">
