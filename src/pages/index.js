@@ -55,7 +55,7 @@ class IndexPage extends React.Component {
           We wrote some code to help our cleaning robot locate itself in a known physical map using the in built LIDAR sensor and some math. Check out <a href={"/blog/particle-filter"}>the blog post</a> to learn more!</p>
         <hr />
         <br />
-        <img style={{ margin: 0 }} src="./oem.png" alt='OEM image' />
+        <img style={{ margin: 0 }} src="./OEM1.png" alt='OEM image' />
         <img style={{ margin: 0 }} src="./blk_diagram.png" alt='telemetry block diagram' />
         <h2>Olin Electric Motorsports</h2>
         <p>OEM is our Olin's Formula SAE team that works to build an electric racecar every year! We work on some lit projects.</p>
