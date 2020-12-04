@@ -53,6 +53,6 @@ I’m super grateful to everyone who made it possible for me to have had this op
 
 That’s it for my takeaways. I’ll try to jump around to different fields for future internships and try firmware / embedded systems design in the future; but ultimately we’ll see what 2021 has in store. 
 
-Also, a huge shoutout to my coworkers and boss. They rock. Love you Sara, Colin, Seb, Ben, and the rest of the AW team. If you guys ever need my help when you decide to pivot to cleantech, let me know. 
+Also, a huge shoutout to my coworkers and boss. They rock. Love you Sara, Colin, Seb, Ben, and the rest of the AW team. Looking forward to working together again in the future!
 
 ![The team, out on Sebastien's sailboat](./AW_final.jpg)  
