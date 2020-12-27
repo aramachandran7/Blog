@@ -30,11 +30,11 @@ class IndexPage extends React.Component {
           <Button marginTop="35px" marginBottom="35px" >Check out my blog here! :)</Button>
         </Link>
         <p>
-          The Olin College of Engineering is an undergraduate, engineering school located outside of Boston, MA!
+          The Olin College of Engineering is an undergraduate engineering school located outside of Boston, MA.
           Our curriculum is based entirely on interdisciplinary, collaborative project-based learning.
         </p>
         <p>
-          ~it's kinda dope {" "}
+          ~it's pretty cool {" "}
           <span role="img" aria-label="wave emoji">
             😃
           </span>
@@ -44,9 +44,14 @@ class IndexPage extends React.Component {
           Scroll down to check out some of my <b>highlighted projects</b>!
           For work experience, <b>check out my resume.</b> 
         </p>
-        <a href={"./resume_updated_v2.pdf"} download>
+        <a href={"./adi_ramachandran_resume.pdf"} download>
           <Button marginTop="35px" marginBottom="35px" >Download my resume here! :)</Button>
         </a>
+        <hr />
+        <br />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Khu0GxKtttg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>Check out our autonomous maze solving differential drive robot!</h2>
+        <p>We built a robot to complete the MicroMouse Competition! Our custom differential drive bot autonomously navigates and solves a 16x16 maze, returns to its starting point by generating a path from its understanding of the maze, and pathplans an optimized route for a final thrilling speedrun to the center. Check out <a href={"http://gammafla.me/micro_mouse_final/"} target="_blank">our project website</a> to learn more! Project features ROS, Gazebo, and Python, with graph theory, path planning, and high speed robot motion control.</p>
         <hr />
         <br />
         <img style={{ margin: 0 }} src="./pf_inaction.gif" alt='Particle filter in Action!' />
@@ -96,6 +101,7 @@ class IndexPage extends React.Component {
         <p>
           <b>I've also worked on a bunch of other sick projects, including ... </b> 
           <ul>
+            <li>Building a single cycle CPU (capable of running Assembly) in behavioral Verilog.</li>
             <li>3D Modeling, CFD simulating, constructing & testing a <a href={"https://photos.app.goo.gl/PoskhKKoH933hUgC7"} target="_blank">feather articulating RC ornithopter</a>!</li>  
             <li>co-founding and running a successful <a href={"https://junipercollegeprep.com/"} target="_blank">college essay writing workshop</a></li>
             <li>winning an MIT COVID-19 hackathon</li>
