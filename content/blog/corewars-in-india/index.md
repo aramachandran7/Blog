@@ -6,6 +6,8 @@ description: Hey guys! Here, we'll be discussing our experience building and rei
 
 What’s up folks. For those new to this blog / who we are, good to see you here! Eamon and I are  both first year students at the Olin College of Engineering at the time of publishing. 
 
+**This post reached the front page of [Hacker News!](https://news.ycombinator.com/item?id=25549290) Check out the comments there :)**
+
 ## The ‘abstract’ - a big picture overview of what we did:
 
 Over our first semester at Olin, in an entrepreneurial spirit we learned and redeveloped Corewars: a 30 year-old computational-thinking game. Corewars was fascinating because of its potential to be used as a powerful logical programming framework. The way players could use simple assembly commands to execute code visually and manipulate data held much promise for complex logical problem-solving both in a competitive or collaborative nature. 
