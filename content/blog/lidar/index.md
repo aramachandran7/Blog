@@ -1,10 +1,10 @@
 ---
 title: Let's build a LIDAR | An exercise in fundamental robotics engineering
-date: "2021-01-10T18:31:03.284Z"
+date: "2021-01-17T18:31:03.284Z"
 description: How I put together my own 360° 2D planar LIDAR scanner (similar to what's found in the Neato XV11 cleaning bot)! ft. GH filters, embedded STM32 programming, and of course, laser scanners. 
 ---
 
-**Note this project is still a work in progress! Next update will be this Sunday, January  17th :)**
+**Note this project is still a work in progress! Next update will be next Sunday, January  24th :)**
 
 After working with simulated LIDAR's on simulated Neato robots remotely for all of last semester (Olin's [Computational intro to Robotics](comprobo20.github.io/) course), I figured it would be interesting seeing what it takes to build an *actual* lidar scanner over my winter break. 
 
@@ -14,13 +14,11 @@ The Revo LDS consists of a laser triangulation sensor, spinning on a large enclo
 
 We will be building *roughly* this entire unit with a few key modifications. 
 
-For reference, here are some similar hobby robotics lidars you can purchase online today. 
+For reference, here are some similar hobby robotics lidars you can purchase online today. And below are a few decently documented 'DIY Lidar systems' found online. 
 - [RP LIDAR A1](https://www.dfrobot.com/product-1125.html)
 - [TurtleBot LIDAR](https://emanual.robotis.com/docs/en/platform/turtlebot3/appendix_lds_01/)
-
-And here are a few decently documented 'DIY Lidar systems' you can find online. 
-- [Electronoobs](https://electronoobs.io/tutorial/48#)
-- [Work-is-playing LIDAR](http://grauonline.de/wordpress/?page_id=1233) 
+- [Electronoobs Project](https://electronoobs.io/tutorial/48#)
+- [Work-is-playing LIDAR Project](http://grauonline.de/wordpress/?page_id=1233) 
 
 ## System requirements
 
@@ -53,7 +51,7 @@ However, industrial triangulation sensors are too expensive to be purchased, and
 
 Implementing complicated high-precision geometry calibration procedures is no fun. Triangulation systems are also super sensitive to even slight manufacturing defects, temperature-based material warping, etc. 3D printed hardware tolerances will not cut it.
 
-So we'll settle on the TFMini Plus, an expensive ToF sensor that samples at up to 1 KHz. 
+So we'll settle on the [TFMini Plus](https://www.sparkfun.com/products/15179), a ToF sensor that samples at up to 1 KHz. This was the fastest sample rate hobby laser distance sensor I could find, and featured a reasonable max scan distance. 
 
 ## Challnege 2 - building an encoder 
 
@@ -62,27 +60,40 @@ We have an encoder for our motor + small pulley, but we need one for our large p
 ~~Magnet(s) + hall effect switch~~ 
 It needs to be as light as possible. 
 A strip of reflective tape + a reflectance sensor. 
-## Breaking down the embedded code 
-Everything that needs to happen, split into 3 core components. Can be accomplished with an RTOS on the stm32.
 
-- LIDAR Scan Data 
-    - High frequency (1KHz) data aquisition over serial and any interpretation logic that needs to happen 
-    - Save scan data to array in stack 
+
+## System hardware block diagram 
+
+## Breaking down the embedded code 
+Everything that needs to happen, split into 3 core components. Can be accomplished with an FreeRTOS on the stm32. We'll be using the STM32 CubeMXIDE to develop code, and ST-link to flash code over SWD. 
+
+
+- Recieve LIDAR Scan Data *In Progress* 
+    - High frequency (1KHz) data aquisition over serial TTL to STM32's `USART1` 
+    - Data saves done via `DMA` for low overhead  
+- Publish LIDAR scan data *In Progress*
+    - Publish data over USB serial TTL `USART2` connection at desired frequency 
 - Estimate large pulley angular position @ scan collection frequency 
     - Use a simple state estimation filter (Alpha / GH filter) to estimate pulley position 
         - Sample motor encoder
         - Sample light sensor via ADC
-    - Control motor via PWM based on estimated  
-- Publish LIDAR scan data 
-    - Publish data over USB serial connection at desired frequency 
+    - Control motor via PWM based on estimated pulley position
 
+Data is received from the TFMini sensor at 1000 kHz 'frame rate', with data frames looking like this. 
+
+We'll also initialize the sensor and set up params over `USART1`. 
 
 **To be continued!**
-
+Todo @Sunday, 1AM: 
+- finalize system hardware diagram + wiring, order 
+- setup exact DMA implementation for sensor & string transmit functions for `USART2` terminal data sends 
+    - `init_tfmini()`
+    - `send_string()`
+    - `recieve_string()`
+- run isolated tests with both of above with usb ttl converter
+- begin freeRTOS implementation + state calculation filter
 
 ## Final Parts list
-
-## System hardware block diagram 
 
 ## System software block diagram 
 
