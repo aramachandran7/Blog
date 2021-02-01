@@ -4,7 +4,7 @@ date: "2021-01-17T18:31:03.284Z"
 description: How I put together my own 360° 2D planar LIDAR scanner (similar to what's found in the Neato XV11 cleaning bot)! ft. GH filters, embedded STM32 programming, and of course, laser scanners. 
 ---
 
-**Note this project is still a work in progress! Next update will be next Sunday, January  24th :)**
+**Note this project is still a work in progress! Waiting on some funds for parts to come in, and have gotten a little busy with the school semester getting started.**
 
 After working with simulated LIDAR's on simulated Neato robots remotely for all of last semester (Olin's [Computational intro to Robotics](comprobo20.github.io/) course), I figured it would be interesting seeing what it takes to build an *actual* lidar scanner over my winter break. 
 
