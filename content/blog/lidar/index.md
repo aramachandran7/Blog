@@ -1,6 +1,6 @@
 ---
 title: Let's build a LIDAR | An exercise in fundamental robotics engineering
-date: "2021-01-17T18:31:03.284Z"
+date: "2021-01-31T18:31:03.284Z"
 description: How I put together my own 360° 2D planar LIDAR scanner (similar to what's found in the Neato XV11 cleaning bot)! ft. GH filters, embedded STM32 programming, and of course, laser scanners. 
 ---
 
