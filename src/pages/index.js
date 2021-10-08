@@ -14,17 +14,19 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `Adi Ramachandran`, `Aditya Ramachandran`, `engineering`]}
+          keywords={[`blog`, `Adi Ramachandran`, `Aditya Ramachandran`, `adinocap`, `adi no cap`]}
         />
-        <img style={{ margin: 0 }} src="./profile.jpg" alt='profile' />
+        <img style={{ margin: 0 }} src="./bike_profile.jpg" alt='profile' />
 
         <h2>
-          Hi!{" "}
+          Yo Yo!{" "}
           <span role="img" aria-label="wave emoji">
             👋
           </span>
         </h2>
         <p>My name's Adi Ramachandran and I'm an ECE student at <b>Olin</b>!</p>
+        <p></p>
+        <p> I spend most of my time on <b>electrical engineering & embedded software</b>; I also love <b>cycling and nature</b> :)</p>
 
         <Link to="/blog/">
           <Button marginTop="35px" marginBottom="35px" >Check out my blog here! :)</Button>
@@ -44,6 +46,7 @@ class IndexPage extends React.Component {
           Scroll down to check out some of my <b>highlighted projects</b>!
           For work experience, <b>check out my resume.</b> 
         </p>
+        <p>I've worked on electrical engineering and embedded software at startups of varying sizes in IOT / climatetech (<a href={"https://www.acoustic-wells.com/"} target="_blank">Acoustic Wells</a>) and the space industry (<a href={"https://momentus.space/"} target="_blank">Momentus Space</a>)!</p>
         <a href={"./adi_ramachandran_resume.pdf"} download>
           <Button marginTop="35px" marginBottom="35px" >Download my resume here! :)</Button>
         </a>
@@ -54,50 +57,55 @@ class IndexPage extends React.Component {
         <p>We built a robot to complete the MicroMouse Competition! Our custom differential drive bot autonomously navigates and solves a 16x16 maze, returns to its starting point by generating a path from its understanding of the maze, and pathplans an optimized route for a final thrilling speedrun to the center. Check out <a href={"http://gammafla.me/micro_mouse_final/"} target="_blank">our project website</a> to learn more! Project features ROS, Gazebo, and Python, with graph theory, path planning, and high speed robot motion control.</p>
         <hr />
         <br />
+        <img style={{ margin: 0 }} src="./OEM1.png" alt='OEM image' />
+        <img style={{ margin: 0 }} src="./blk_diagram.png" alt='telemetry block diagram' />
+        <h2>Olin Electric Motorsports</h2>
+        <p>OEM is our Olin's Formula SAE team that works to build an electric racecar every year! </p>
+        <h4>Testing Subteam Lead</h4>
+        <p>
+          I currently <b>lead the Testing Subteam</b> where I manage and architect projects like our Hardware in the Loop system, our Battery Management System testing rig, and more!
+        </p>
+        <h4>Low Voltage battery management system</h4>
+        <p>
+          I'm currently designing and testing the battery management system for our vehicle 12V electrical system featuring a <b>bidirectionalload switch in the high current path, voltage, current, and temperature checking for the pack, & passive cell balancing</b>! The PCB is designed around the LTC6810 chip - I also configured the custom battery pack! Check out the <a href={"https://github.com/olin-electric-motorsports/MKV-Boards/tree/main/Boards/lv_bms_2/lv_bms_2"} target="_blank">github</a> for more info. 
+        </p>        
+        <h4>Vehicle telemetry software!</h4>
+        <p>
+          During my second year on OEM, I wrote firmware for and built the data pipeline behind our team's <b> new telemetry system,</b> to live-stream sensor data from the vehicle's CAN bus for visualization, logging, and analysis on the sidelines. Check out the <a href={"https://docs.google.com/presentation/d/1UC-YDQk7SpxMN6GNWE3kg2BDyTvGPCxV-E1GIj7U7aE/edit#slide=id.ga6a6f370e1_0_12"} target="_blank">design review slides</a> for more info. 
+        </p>
+        <hr />
+        <br />
         <img style={{ margin: 0 }} src="./pf_inaction.gif" alt='Particle filter in Action!' />
         <h2>We built a particle filter!</h2>
         <p>
           We wrote some code to help our cleaning robot locate itself in a known physical map using the in built LIDAR sensor and some math. Check out <a href={"/blog/particle-filter"}>the blog post</a> to learn more!</p>
         <hr />
         <br />
-        <img style={{ margin: 0 }} src="./OEM1.png" alt='OEM image' />
-        <img style={{ margin: 0 }} src="./blk_diagram.png" alt='telemetry block diagram' />
-        <h2>Olin Electric Motorsports</h2>
-        <p>OEM is our Olin's Formula SAE team that works to build an electric racecar every year! We work on some lit projects.</p>
-        <h4>Vehicle telemetry software!</h4>
-        <p>
-          During my second year on OEM, I've been working on writing the software and building the data pipeline behind our team's <b> new telemetry system,</b> to live-stream sensor data from the vehicle's CANbus for visualization, logging, and analysis on the sidelines. Check out the <a href={"https://docs.google.com/presentation/d/1UC-YDQk7SpxMN6GNWE3kg2BDyTvGPCxV-E1GIj7U7aE/edit#slide=id.ga6a6f370e1_0_12"} target="_blank">design review slides</a> for more info. 
-        </p>
-        <h4>Designing a battery management system</h4>
-        <p>
-          During my first year, I worked on designing and testing a more efficient low voltage battery back and associated battery management system PCB. Learn more about my work by checking out my project {" "}
-            <a href={"./LVDocs.pdf"} download>
-              documentation! 
-            </a>
-        </p>
-
-        <hr />
-        <br />
         {/* <img style={{ margin: 0 }} src="./edual.jpg" alt='edual' /> */}
         <img style={{ margin: 0 }} src="./test2.gif" alt='Our Corewars Implementation!' />
 
-        <h2>Edual</h2>
+        <h2>Corewars</h2>
         <p>
-          Early in my time at Olin, I decided I wanted to work on a socially impactful entrepreneurial venture. Working with Eamon Ito-Fisher, we reimagined & developed Corewars, an algorithmic thinking game played in Assembly, to enable project-based learning in higher-ed engineering & CS classrooms and lecture halls.
+          We rebuilt Corewars and used it to teach computer science students in India! (We also reached the front page of <a href={"https://news.ycombinator.com/item?id=25549290"} target="_blank">Hacker News</a>!)  
         </p>
         <p> 
 
         </p>
-        <p>We deployed our code to a university in India in January 2020, and you can see the final product above! Read more about our work on Edual <a href={"/blog/corewars-in-india"}>at our full blog post</a>!</p>
+        <p>This is one of my favorite projects, and getting to actually deploy it to a university in India in January 2020 was incredible. You can see the final product above! Read more about our work <a href={"/blog/corewars-in-india"}>at our full blog post</a>!</p>
         <hr />
         <br />
-
-        <img style={{ margin: 0 }} src="./scheduler.PNG" alt='scheduler' />
+        <img style={{ margin: 0 }} src="./pe_buck.jpg" alt='scheduler' />
+        <h2>Power Electronics at Olin</h2>
+        <p>
+          Power Electronics is one of my favorite courses at Olin - we learn the theory of different power conversion architectures - buck, buck boost, flyback - and build up our own printed circuit boards to test and understand behavior of those architectures in the real world!   
+        </p>
+        <hr />
+        {/* <img style={{ margin: 0 }} src="./scheduler.PNG" alt='scheduler' />
         <h2>Course Scheduler</h2>
         <p>
           With over 1000 lines of python, we wrote an Olin course scheduling assistant command line tool for our Software Design final project! Read more on our <a href={"https://teadetime.github.io/softdesFinal/"} target="_blank">dedicated project website</a>.   
         </p>
-        <hr />
+        <hr /> */}
         <p>
           <b>I've also worked on a bunch of other sick projects, including ... </b> 
           <ul>
