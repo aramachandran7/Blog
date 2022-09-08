@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `Adi No Cap - an Oliner's Blog`,
     author: `Adi Ramachandran`,
-    description: `A personal blog about engineering, software development, and being a student at the Olin College of Engineering.`,
+    description: `Adi's site about experiments in education, engineering, climate, & more :D`,
     siteUrl: `https://adinocap.com/`,
     social: {
       github: 'aramachandran7',

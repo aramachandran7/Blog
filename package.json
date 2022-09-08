@@ -1,7 +1,7 @@
 {
   "name": "gatsby-personal-starter-blog",
   "private": true,
-  "description": "A personal blog about engineering, software development, and being a student at the Olin College of Engineering. Built w/ gatsby.js",
+  "description": "Adi's site about experiments in education, engineering, climate, & more :D",
   "version": "1.0.0",
   "author": "Adi Ramachandran ",
   "dependencies": {
