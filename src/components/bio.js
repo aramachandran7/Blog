@@ -21,19 +21,7 @@ function Bio() {
         return (
           <Container>
             <p>
-              Written by <strong>{author}</strong> at the Olin College of Engineering.
-              Check out my
-              {` `}
-              <a href={`https://github.com/aramachandran7`}>
-                github
-              </a>
-              {` `}
-              or
-              {` `}
-              <a href={`https://instagram.com/aramachandran29`}>
-                instagram
-              </a>
-              !
+              All blogs written by <strong>{author}</strong>. 
             </p>
           </Container>
         )

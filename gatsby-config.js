@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Adi No Cap - an Oliner's Blog`,
+    title: `adinocap`,
     author: `Adi Ramachandran`,
-    description: `Adi's site about experiments in education, engineering, climate, & more :D`,
+    description: `adi's little space on the internet. featuring experiments in education, engineering, climate, & more :D`,
     siteUrl: `https://adinocap.com/`,
     social: {
       github: 'aramachandran7',
+      youtube: 'adityaramachandran5223',
       twitter: 'aramachandran29',
-      insta: 'aramachandran29'
     },
   },
   plugins: [
