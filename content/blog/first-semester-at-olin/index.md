@@ -109,7 +109,7 @@ My project partner, Eamon Ito-Fisher, and I spent a lot of time last semester an
 In short, we built a game-based teaching tool for professors, comparable to MIT's Scratch! We ported over a 1980’s coding game, Corewars, to a modern tech stack with a re-imagined UI. Our objective was to provide students with a collaborative logic game that increases their confidence in creative problem solving and collaborative algorithmic thinking.
 
 We completed our MVP (Check out what we built [here](https://corewarstechalpha.herokuapp.com/)!), and actually had the amazing opportunity to deploy with [first-year CS students](https://amfoss.in/) at Amrita University in Kollam, India! It was a ton of fun, and by far one of my coolest projects yet.
-![Edual Alpha Project Image](./COREWARS.PNG)  
+<!-- ![Edual Alpha Project Image](./COREWARS.png)   -->
 
 We have plans to continue in a different direction, (subject to pivots): we’re thinking about developing software to enable ‘Olin-style’ project-based learning in other university lecture halls across the country. We’ll keep you updated!
 
@@ -131,7 +131,7 @@ Project 2 – modeling thermal systems (i.e. ocean warming)
 Project 3 – modeling physical systems (i.e. projectile motion)
 
 Here I'll be discussing our Modsim Project 1, which was by far my favorite of the 3 projects. Working with Xander Hughes, using Python and about 30 gigs of Citibike data, we built a statistical model of the NYC CitiBike bikeshare system to predict bikeshare usage in NYC, model daily commuter flow, and mpa out pain points in the system.
-![Modsim Project](./modsim.PNG)  
+![Modsim Project](./modsim.png)  
 
 We based all of the values in our system off of probabilities and insights gathered from real CitiBike data, and nearly every parameter of the system (like bike travel speed, arrival time for bikeshare users, etc.) was considered as a distribution around the real average, instead of a constant value, to match variance in the real world.
 
@@ -146,7 +146,7 @@ Introduction to sensors, instrumentation, and measurement - ISIM -  was the intr
 For our final ISIM project, Rohil Agarwal and I devised a simple thermocouple circuit, capable of reading temperature with high precision and low lag, using some custom filtering and amplification. The circuit was used with an Analog Discovery oscilloscope and Waveforms software to read and log the data in real time.
 
 Subsequently, we used the above circuit as a measurement tool to fact-check the temperature accuracy of 3D printer print beds …
-![Isim workspace image](./isim2.PNG)  
+![Isim workspace image](./isim2.png)  
 
 And we got some really interesting results.
 
@@ -165,7 +165,7 @@ The Desnat Play Experience project required teams of 5 students to collaborate a
 
 I will note that 4th graders are incredible critics. This project is best explained [visually - check out this drive folder](https://drive.google.com/open?id=1U6TKJgSbrzZ-HdJAjwoHlbLDy0PzqYYH). :)
 
-![Desnat pic 4](./giraffe3.JPG)  
+![Desnat pic 4](./giraffe3.jpg)  
 
 ## Wrapping up
 

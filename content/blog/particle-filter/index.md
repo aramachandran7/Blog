@@ -28,7 +28,7 @@ As the robot moves through the map, we transpose each particle and recalculate w
 ## An overview of our implementation 
 The implementation of our particle filter can be broken down into several steps that get repeated throughout time. Below is a block diagram & high level explanation how we specifically applied the filter. 
 
-![blockdiagram](/media/bdv1.PNG)
+![blockdiagram](/media/bdv1.png)
 
 
 ### Some specifics of our setup 
