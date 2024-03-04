@@ -10,7 +10,7 @@ Today I'll be discussing a neat little robotics software project I recently comp
 
 **tl;dr - one of my favorite projects by far! It was less of an exercise in good software engineering practices and more of one in interesting algorithm design; here's our [codebase](https://github.com/aramachandran7/robot_localization) the final result -->** 
 
-![inaction](/media/pf_inaction.gif)
+![inaction](./media/pf_inaction.gif)
 
 ## A little background on robot localization and particle filters!
 
@@ -28,7 +28,7 @@ As the robot moves through the map, we transpose each particle and recalculate w
 ## An overview of our implementation 
 The implementation of our particle filter can be broken down into several steps that get repeated throughout time. Below is a block diagram & high level explanation how we specifically applied the filter. 
 
-![blockdiagram](/media/bdv1.png)
+![blockdiagram](./media/bdv1.png)
 
 
 ### Some specifics of our setup 
@@ -54,15 +54,15 @@ As this process repeats the point cloud should converge onto the actual position
 
 The large red arrow is the ground truth position of the robot. The small red arrows represent our particles. The particles should stay relatively condensed around the larger red arrow. The (hard to see) white lines are the lidar scan of the robot superimposed onto the map.
 
-![working well](/media/in_use.gif)
+![working well](./media/in_use.gif)
 
 A smaller map where the PF performed worse: 
 
-![not_so_good](/media/not_so_good.gif)
+![not_so_good](./media/not_so_good.gif)
 
 The same map as above, with fewer total particles: 
 
-![working well](/media/better.gif)
+![working well](./media/better.gif)
 
 ## Let's talk about some of our core design decisions - 
 

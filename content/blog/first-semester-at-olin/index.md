@@ -153,7 +153,7 @@ And we got some really interesting results.
 As you might have guessed, a 3D printer bed doesn’t heat up evenly – the center heats up significantly more than the 4 corners; that’s the nature of how heat dissipates. Makes sense.
 
 But more interestingly, our results indicated that the bed surface itself of the 3D printer we used for testing (a Prusa i3 MK2) didn’t actually heat up to the software temperature set point. The values we achieved in measurement were all 10-15 degrees Celsius lower than the 55-degree set point. Huh. Interesting…
-![Isim Graph](./isim.PNG)  
+![Isim Graph](./isim.png)  
 
 For a deeper analysis, check out the full report [here](https://drive.google.com/open?id=1UT3qyti09_Lr63RikA0Q02RuGmth84XX)!
 
