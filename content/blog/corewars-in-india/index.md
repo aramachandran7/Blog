@@ -114,7 +114,7 @@ Again, please feel free to check out our codebase or play around with the final 
 
 Amar was kind enough to let us visit and deploy our software at his university, Amrita University in Kochi, India. Amrita University is the #1 ranked private university in all of India, and has highly ranked engineering and CS programs in the country as well. 
 
-![Amrita Engineering Map](./amritaeng.png)
+<!-- ![Amrita Engineering Map](./amritaeng.png) -->
 
 *Amrita University on a map*
 
