@@ -5,7 +5,11 @@
 title = "adinocap"
 +++
 
+* * *
+
 ### _hi, adi here. welcome to my little space on the internet. I'm glad you came. a quick bio about me:_
+
+  
 
 — currently or have recently been a: **student, designer, engineer, cyclist, hitchhiker, pedagogist, & electronic musician.**
 
@@ -19,7 +23,10 @@ title = "adinocap"
 
 — would love to chat, grab a beer, or go on a hike. i can be reached at [lego.r.ramachandran@gmail.com](mailto:lego.r.ramachandran@gmail.com?subject=ContactAdi).
 
-[Download resume here.](./adi_ramachandran_resume.pdf) [Check out my blog here.](/blog/)
+ 
+[Download resume here.](./adi_ramachandran_resume.pdf) 
+
+[Check out my blog here.](/blog/)
 
 * * *
 
@@ -38,7 +45,7 @@ _in a holistic exercise in graphic design, interviewing, pedagogical study, & da
 
 ![amp picture](./amp.jpg)
 
-_an exploration into electronics for audio: designed and implemented a 25W/ch class D audio amplifier with a GaN power stage, featuring an analog volume adjustment & EQ circuit. schematic, calculations board files, [can be found here](https://docs.google.com/document/d/1xZqjKs2XpMvngJh-4kl8GRmEyWWov9hn_stp4wfZbEA/edit?usp=sharing)._
+_an exploration into electronics for audio: designed and implemented a 25W/ch class D audio amplifier with a GaN power stage, featuring an analog volume adjustment & EQ circuit. schematic, calculations, & board files, [can be found here](https://docs.google.com/document/d/1xZqjKs2XpMvngJh-4kl8GRmEyWWov9hn_stp4wfZbEA/edit?usp=sharing)._
 
 
 ![amp picture](./grid.png)
@@ -47,7 +54,7 @@ _our senior entrepreneurship capstone project at olin: a thorough dive and marke
 
 {{< youtube id="O7dE5twHRZo" start=4701 >}}
 
-_performing some of my own groovy house & acid tracks live on my drum machine, the Maschine Mikro Mk3, for NoiseBridge Makerspace's monthly electronic music open mic. Listen with headphones!_
+_performing some of my own groovy house & acid tracks live on my drum machine, the Maschine Mikro Mk3, for NoiseBridge Makerspace's monthly electronic music open mic. Skip to 1:18:18, & listen with headphones!_
 
 * * *
 
